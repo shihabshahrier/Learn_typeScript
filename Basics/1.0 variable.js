@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var plus = "++++++++++++++++++++";
+var name = "ML corporation";
+var flag = true;
+var number = 1234;
+console.log(plus);
+console.log(name);
+console.log(plus);
+console.log(flag);
+console.log(number);
