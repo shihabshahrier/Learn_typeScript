@@ -1,6 +1,9 @@
-const names: string[] = [];
-names.push("alif")
+const idiots: string[] = [];
+idiots.push("alif")
 
-console.log(names)
+console.log(idiots)
+
+const mc: readonly string[] = ["Alif"];
+//mc.push("Jamil");
 
 export{}
