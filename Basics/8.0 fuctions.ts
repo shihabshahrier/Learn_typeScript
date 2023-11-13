@@ -18,3 +18,5 @@ console.log(pow(5));
 console.log(divide({ dividend: 10, divisor: 2 }));
 console.log(add(1, 2, 3, 4, 5));
 console.log(negateFunction(5));
+
+export { };
