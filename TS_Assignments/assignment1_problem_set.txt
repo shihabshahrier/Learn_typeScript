@@ -1,0 +1,103 @@
+### Solve The Following Problems Using Type Script
+
+
+Evaluate Mathematical Expression (type: Easy)
+
+Problem Description:
+
+You are given a string representing a mathematical expression containing the following elements: non-negative integers, the four basic arithmetic operators (+, -, *, and /), and parentheses. The expression may also contain spaces. Your task is to create a function that evaluates the expression and returns the result if it is valid. If the expression is invalid or cannot be evaluated, return -1.
+
+
+Input:
+20 + 30 + (20*4)/4 - 15
+20 - 3(24*3
+
+Output:
+55
+-1
+
+Code Exemple:
+
+Function evaluateMathExp(exp){
+	// write your code here
+}
+
+Let exp = "20 + 30 + (20*4)/4 - 15";
+Let result = evaluateMathExp(exp);
+console.log(result);
+
+
+
+2. Car Collision Checker (type: Medium)
+
+
+Problem Description:
+
+You are tasked with implementing a Car class and a collision checking function for two cars in a 2D grid. The grid is represented by an N X N matrix, where each cell may contain one of the following symbols:
+‘*’ - > empty.
+‘#’ - > Car.
+
+You are given a string of control commands that instruct both cars. Each command is a single character from the set {'w', 'a', 's', 'd'}:
+
+- 'w': Move up.
+- 'a': Move left.
+- 's': Move down.
+- 'd': Move right.
+
+The control string consists of alternating commands, where even indices (0-based) represent the controls for Car 1, and odd indices represent the controls for Car 2.
+
+Your task is to implement a function `check_collision(grid: List[List[str]], controls: str) -> str`, where `grid` is a 2D grid representing the current positions of the cars, and `controls` is the control string.
+
+Input:
+N = 5
+Position: (0, 1), (4, 3)
+[
+[ * # * * * ]
+[ * * * * * ]
+[ * * * * * ]
+[ * * * * * ]
+[ * * * * # ]
+]
+Control_exp = “swswda”
+N = 5
+Position: (0, 1), (4, 4)
+[
+[ * # * * * ]
+[ * * * * * ]
+[ * * * * * ]
+[ * * * * * ]
+[ * * * * # ]
+]
+Control_exp = “swswdw”
+
+
+
+Output:
+Crash!
+Safe!
+
+
+Code Exemple:
+
+Class CAR{
+	// implement car class
+}
+
+Function checkCollision(){
+	// implement check_collision function 
+}
+
+N = 5;
+Car1_position = [0, 1];
+Car2_position = [4, 3];
+Control_exp = "swswda";
+
+Car1 = CAR(Car1_position);
+Car2 = CAR(Car2_position);
+
+Result = checkCollision(Car1, Car2, Control_exp);
+console.log(Result);
+
+
+
+
